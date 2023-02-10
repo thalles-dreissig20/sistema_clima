@@ -1,0 +1,91 @@
+@font-face{
+  font-family: 'LeagueSpartan';
+  src: url('../public/LeagueSpartan-Bold.otf');
+}
+.container{
+  border: solid 8px #CA8110;
+  background-color: #3E796D;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  height: 590px;
+  width: 1000px;
+  border-radius: 12px;
+}
+.img_fundo{
+  position: fixed;
+  height: 591px;
+  width: 1000px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.nav{
+  position: relative;
+  z-index: 1;
+  bottom: 17px;
+}
+.input{
+  margin-left: 5%;
+  margin-top: 5%;
+  height: 40px;
+  width: 400px;
+  position: relative;
+  font-size: 18px;
+}
+.buscar{
+  position: relative;
+  margin-left: 5%;
+  margin-top: 3%;
+  height: 46px;
+  width: 408px;
+  font-size: 15px;
+  background-color: #CA8110;
+  font-family: 'LeagueSpartan';
+}
+
+
+.container-info{
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+.cidade{
+  display: flex;
+}
+.temp{
+  display: flex;
+}
+.tempe{
+  position: relative;
+  left: 10px;
+}
+.descricao{
+  display: flex;
+  margin-left: 0;
+}
+.descricao img{
+  position: relative;
+  left: 10px;
+  bottom: 5px;
+  
+}
+.humidade{
+  display: flex;
+}
+h4{
+  margin: 0;
+  position: relative;
+}
+.icone-humidity{
+  position: relative;
+  font-size: 28px;
+  top: 5px;
+  left: 2px;
+  margin-right: 20px;
+}
+.icone-vento{
+  position: relative;
+  font-size: 40px;
+  top: 10px;
+  margin-right: 10px;
+}
